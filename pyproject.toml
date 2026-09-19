@@ -1,0 +1,33 @@
+
+[project]
+name                =   "template-py"
+version             =   "1.0.0"
+description         =   "provides a template for a pyproject module"
+readme              =   "README.md"
+requires-python     =   ">=3.13"
+authors             = [ name = "here4soup" ]
+maintainers         = [ name = "here4soup" ]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/here4soup/template_py"
+Documentation = "https://github.com/here4soup/template_py/README.md"
+Repository = ""
+Issues = ""
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "pytest",
+    "pytest-cov",
+    "ty",
+    "twine",
+    "build",
+    "pre-commit",
+    "rich",
+]
+
+[build-system]
+
+[project.scripts]
