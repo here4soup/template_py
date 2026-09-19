@@ -8,4 +8,3 @@
 #   none
 # ///
 
-class MyModule():
